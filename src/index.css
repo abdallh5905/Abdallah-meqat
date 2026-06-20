@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Cairo", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  /* Custom brand colors matching the screenshot's premium gold and deep charcoal/black */
+  --color-gold-50: #fbf8eb;
+  --color-gold-100: #f6eec3;
+  --color-gold-200: #eedb8a;
+  --color-gold-300: #e2c050;
+  --color-gold-400: #d4a529;
+  --color-gold-500: #c18b1d;
+  --color-gold-600: #a36b15;
+  --color-gold-700: #824f13;
+  --color-gold-800: #6a3f14;
+  --color-gold-900: #5b3515;
+}
+
+html, body {
+  font-family: var(--font-sans);
+  direction: rtl;
+  scroll-behavior: smooth;
+  background-color: #0c0c0e;
+  color: #f3f4f6;
+}
+
+/* Custom scrollbar to keep layout premium */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0f0f11;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c18b1d;
+}

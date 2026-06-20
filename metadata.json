@@ -1,0 +1,6 @@
+{
+  "name": "الميقات للعمرة",
+  "description": "موقع حملات العمرة من الرياض إلى مكة المكرمة والمدينة المنورة - باقات اقتصادية و VIP بأفضل الخدمات وأرخص الأسعار.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
